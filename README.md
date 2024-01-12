@@ -6,8 +6,6 @@ Este é um simples, mas elegante relógio analógico desenvolvido utilizando HTM
 
 ![Imagem do Relógio](img/preview.png)
 
-![GIF do Projeto](img/preview-gif.gif1)
-
 ## Características Principais
 
 - **Design Atraente:** Moldura circular e ponteiros finos para uma estética elegante.
