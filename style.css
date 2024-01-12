@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body{
+    background-color: #151515;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282828;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 10px solid #3dbeff;
+    position: relative;
+}
+
+.mid-point{
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+}
+
+.second-hand{
+    width: 4px;
+    height: 170px;
+    background-color: red;
+    border-radius: 10px;
+    transform: translate(0,-50%);
+    transform-origin: bottom;
+    transition: .4s ease;
+}
+
+.minute-hand{
+    width: 6px;
+    height: 130px;
+    background-color: gray;
+    border-radius: 10px;
+    transform: translate(0,-50%);
+    transform-origin: bottom;
+    transition: .4s ease;
+    position: absolute;
+}
+
+.hour-hand{
+    width: 8px;
+    height: 80px;
+    background-color: white;
+    border-radius: 10px;
+    transform: translate(0,-50%);
+    transform-origin: bottom;
+    transition: .4s ease;
+    position: absolute;
+    z-index: 1;
+}
+
+.number{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+}
+
+.number1{
+    transform: rotate(calc(1*30deg));
+}
+
+.number2{
+    transform: rotate(calc(2*30deg));
+}
+
+.number3{
+    transform: rotate(calc(3*30deg));
+}
+
+.number4{
+    transform: rotate(calc(4*30deg));
+}
+
+.number5{
+    transform: rotate(calc(5*30deg));
+}
+
+.number6{
+    transform: rotate(calc(6*30deg));
+}
+
+.number7{
+    transform: rotate(calc(7*30deg));
+}
+
+.number8{
+    transform: rotate(calc(8*30deg));
+}
+
+.number9{
+    transform: rotate(calc(9*30deg));
+}
+
+.number10{
+    transform: rotate(calc(10*30deg));
+}
+
+.number11{
+    transform: rotate(calc(11*30deg));
+}
+
+.number12{
+    transform: rotate(calc(12*30deg));
+}
+
+.digital-clock{
+    margin-top: 30px;
+    background-color: #282828;
+    padding: 8px;
+    border-radius: 15px;
+}
