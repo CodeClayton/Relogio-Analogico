@@ -1,12 +1,12 @@
 # Relógio Analógico Web 🕰️
 
-Este é um simples, mas elegante relógio analógico desenvolvido utilizando HTML, CSS e JavaScript puro. Oferecendo um design limpo, funcionalidade precisa e a capacidade de personalização, este relógio é uma adição encantadora a qualquer projeto web.
+Este é um simples, mas elegante relógio analógico desenvolvido utilizando HTML, CSS e JavaScript puro. Oferecendo um design limpo, funcionalidade precisa.
 
 ## Demonstração
 
 ![Imagem do Relógio](img/preview.png)
 
-![GIF do Projeto](img/preview-gif.gif)
+![Video do Projeto](img/preview-video.mp4)
 
 ## Características Principais
 
